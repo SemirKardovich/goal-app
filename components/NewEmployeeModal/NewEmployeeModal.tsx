@@ -191,10 +191,6 @@ export default function NewEmployeeModal() {
                 </Button>
               </Grid>
             </Grid>
-
-            <Box maxWidth='500px'>
-              <pre>{JSON.stringify(formik.values, null, 2)}</pre>
-            </Box>
           </Form>
         </FormikProvider>
       </ModalPaper>
